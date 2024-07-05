@@ -1,0 +1,43 @@
+
+.portfolio-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 10px 30px;
+    list-style: none;
+    color: rgba(128, 128, 128, 0.685);
+    border: 1px solid black;
+    border-radius: 18px ;
+    background-color: #030a1318;
+    box-shadow: 8px 8px 8px grey;
+    width: 50%;
+   position: fixed;
+   top: 10px;
+   left: 20%;
+ 
+   li{
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+
+    &::after {
+        content: '';
+        width: 0%;
+        height: 2px;
+        background:whitesmoke;
+        display: block;
+        transition: 0.5s;
+      }
+
+      &:hover::after{
+        width: 100%;
+      }
+
+
+  
+&:hover{
+    color: rgba(255, 68, 0, 0.623);
+}
+
+}
+}

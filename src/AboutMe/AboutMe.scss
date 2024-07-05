@@ -1,0 +1,48 @@
+
+
+
+
+.aboutme{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    background: linear-gradient(to bottom, #030a13d3, rgba(255, 68, 0, 0.534));
+    padding: 55px 0;
+    height: 100%;
+    gap: 70px;
+
+    .aboutme-left{
+    display: flex;
+    flex-direction: column;
+    color: rgba(250, 248, 246, 0.329);
+    padding: 0px 20px;
+    
+    span{
+     padding: 5px 0;
+     cursor: pointer;
+    }
+
+   
+    }
+
+    .aboutme-right{
+    
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    gap: 10px;
+
+   .aboutme-detail{
+
+    font-size: 18px;
+      h2{
+        text-align: center;
+        color: whitesmoke;
+        font-family: 'Times New Roman', Times, serif;
+      }
+
+      
+   }
+    }
+}

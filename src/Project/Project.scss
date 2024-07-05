@@ -1,0 +1,57 @@
+
+
+
+
+
+
+.project{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    background: linear-gradient(to bottom, #030a13d3, rgba(255, 68, 0, 0.534));
+    padding: 55px 0;
+    height: 100%;
+
+    .project-left{
+    display: flex;
+    flex-direction: column;
+    color: rgba(250, 248, 246, 0.329);
+    padding: 0px 20px;
+    
+    span{
+     padding: 5px 0;
+     cursor: pointer;
+    }
+
+   
+    }
+
+    .project-right{
+    
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    gap: 10px;
+
+    .project-detail{
+        h2{
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+        }
+
+        .project-grid{
+           
+            .project-grid-img{
+            display: grid;
+            grid-template-columns:200px 200px 200px 200px;
+            row-gap: 10px;
+            padding: 10px;
+            border: 1px solid black;
+           
+            }
+        }
+    }
+    }
+}
